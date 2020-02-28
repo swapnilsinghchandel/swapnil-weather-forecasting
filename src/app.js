@@ -23,14 +23,14 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Swap'
+        name: 'Swapnil Singh'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Swap'
+        name: 'Swapnil Singh'
     })
 })
 
@@ -38,7 +38,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         helpText: 'If you are facing some trouble or have any sort of query, you can contact at swapnilpro134@gmail.com',
         title: 'Help',
-        name: 'Swap'
+        name: 'Swapnil Singh'
     })
 })
 
